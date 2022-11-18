@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="mainpage">
-      <div class="homePage" style="flex-grow: 1">
+    <div class="mainPage">
+      <div class="homePage">
         <p>HOME</p>
         <p id="resultHome" class="result-style">0</p>
         <div class="buttons">
@@ -18,7 +18,7 @@
           <button onclick="addPlusThree()">+3</button>
         </div>
       </div>
-      <div class="guestPage" style="flex-grow: 1">
+      <div class="guestPage">
         <p>GUEST</p>
         <p id="resultGuest" class="result-style">0</p>
         <div class="buttons">
@@ -26,9 +26,9 @@
           <button onclick="addPlusTwoG()">+2</button>
           <button onclick="addPlusThreeG()">+3</button>
         </div>
-        <button onclick="newGame()">New game</button>
       </div>
     </div>
+    <button onclick="newGame()" class="newGameButton">New game</button>
     <script src="index.js"></script>
   </body>
 </html>

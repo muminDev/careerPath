@@ -1,20 +1,62 @@
-.mainpage {
-  background-color: rgb(145, 146, 152);
-  height: 300px;
-  width: 600px;
-  border-radius: 15px;
+p {
+  margin: 17px;
+}
+body {
+  background-image: url("pictures/basketball.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainPage {
   display: flex;
 }
 .homePage {
+  font-size: 35px;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgb(145, 148, 148);
+  margin-top: 15%;
+  margin-left: 26%;
   text-align: center;
   vertical-align: middle;
+}
+.result-style {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 0;
+  color: red;
 }
 .guestPage {
+  font-size: 35px;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgb(145, 148, 148, 5);
+  margin-top: 15%;
+  margin-left: 16%;
   text-align: center;
   vertical-align: middle;
 }
-.buttons {
-  display: flex;
+button {
+  background-image: linear-gradient(
+    rgb(107, 102, 102),
+    rgb(154, 161, 216),
+    rgb(154, 193, 154)
+  );
+  box-shadow: 5px 5px 5px;
+  background-color: aquamarine;
   text-align: center;
   vertical-align: middle;
+  border: none;
+  width: 45px;
+  height: 30px;
+  border-radius: 5px;
+}
+.newGameButton {
+  display: block;
+  width: 85px;
+  height: 35px;
+  margin-top: 50px;
+  margin-left: 48%;
 }
