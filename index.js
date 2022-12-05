@@ -33,3 +33,12 @@ function newGame() {
   numberGuest = 0;
   resultOnScreenGuest.textContent = numberGuest;
 }
+const str = "guitar";
+
+let reversedStr = "";
+
+for (let i = str.length - 1; i >= 0; i--) {
+  reversedStr += str[i];
+}
+
+console.log(reversedStr);
